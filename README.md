@@ -1,6 +1,6 @@
 # Hola, soy Ruben Dario (Rubentxu)
 
-Backend en Rust | Sistemas escalables | Cloud | Observabilidad
+Solution Architect| aficionado en leguajes Rust,Golang,Kotlin y Java | Sistemas escalables | Cloud | Observabilidad
 
 [![GitHub followers](https://img.shields.io/github/followers/Rubentxu?style=flat&logo=github)](https://github.com/Rubentxu?tab=followers)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ruben%20Dario-0a66c2?logo=linkedin)](https://es.linkedin.com/in/rubentxu)
