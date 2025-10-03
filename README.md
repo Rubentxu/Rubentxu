@@ -4,22 +4,31 @@ Backend en Rust | Sistemas escalables | Cloud | Observabilidad
 
 [![GitHub followers](https://img.shields.io/github/followers/Rubentxu?style=flat&logo=github)](https://github.com/Rubentxu?tab=followers)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ruben%20Dario-0a66c2?logo=linkedin)](https://es.linkedin.com/in/rubentxu)
+[![Blog](https://img.shields.io/badge/Blog-rubentxu.dev-0F6CBD?logo=rss&logoColor=white)](https://blog.rubentxu.dev/)
 [![Hireable](https://img.shields.io/badge/Hireable-Yes-brightgreen)](#contacto)
 
 ---
 
 ## Sobre mí
 
-Me gusta construir backends rápidos, fiables y mantenibles. Disfruto del diseño de sistemas, la simplicidad en la arquitectura y la automatización end‑to‑end: desde CI/CD e IaC hasta observabilidad y performance.
+Construyo backends rápidos, fiables y mantenibles. Me enfoco en arquitectura limpia, performance y automatización end‑to‑end (CI/CD, IaC, observabilidad). Trabajo con mentalidad de producto y medición.
 
 - Ubicación: Vitoria (Álava, Spain)
-- Intereses: Rust, sistemas distribuidos, seguridad, IaC, observabilidad
-- Abierto a colaborar en proyectos y oportunidades relacionadas con backend en Rust
+- Intereses: Rust, sistemas distribuidos, autorización multi‑capa, IaC, observabilidad
+- Abierto a colaborar en proyectos de backend en Rust y plataformas DevEx
 
-## Lo que construyo
-- Servicios y APIs con enfoque en seguridad, observabilidad y costes
-- Pipelines y runtimes para automatizar procesos (CI/CD)
-- Herramientas y utilidades para dev‑experience
+## Blog
+- Publico sobre Rust, autorización con Cedar, arquitectura VSA/Hexagonal, CI/CD y observabilidad.
+- Lee los artículos en: https://blog.rubentxu.dev/
+
+## Proyectos destacados
+- [hodei-artifacts](https://github.com/Rubentxu/hodei-artifacts) — Monorepo en Rust: autorización multi‑capa (IAM, Organizations, SCPs), análisis de políticas, API y frontend (docs OpenAPI incl.).
+- [Entitas-Java](https://github.com/Rubentxu/Entitas-Java) — Entity Component System (ECS) en Java 8 inspirado en Entitas.
+
+### Otros
+- [pipeline-kotlin](https://github.com/Rubentxu/pipeline-kotlin) — DSL de pipelines en Kotlin (inspirado en Jenkins Pipeline).
+- [pipeline-runtime](https://github.com/Rubentxu/pipeline-runtime) — Runtime que emula ejecución de Jenkins Pipelines (Groovy).
+- [DreamsLibGdx](https://github.com/Rubentxu/DreamsLibGdx) — Juego de plataformas con LibGDX (Java).
 
 ## Stack principal
 - Lenguajes: **Rust**, Kotlin, Java, Python, Bash
@@ -27,14 +36,6 @@ Me gusta construir backends rápidos, fiables y mantenibles. Disfruto del diseñ
 - Datos: PostgreSQL, Redis, SurrealDB
 - Infra: Docker, Kubernetes, **Terraform**, AWS, GitHub Actions
 - Observabilidad: OpenTelemetry, Prometheus, Grafana
-
-## Proyectos destacados
-- [Entitas-Java](https://github.com/Rubentxu/Entitas-Java) — Entity Component System (ECS) en Java 8 inspirado en Entitas.
-- [pipeline-kotlin](https://github.com/Rubentxu/pipeline-kotlin) — DSL de pipelines en Kotlin inspirado en Jenkins Pipeline.
-- [DreamsLibGdx](https://github.com/Rubentxu/DreamsLibGdx) — Juego de plataformas con LibGDX (Java).
-- [pipeline-runtime](https://github.com/Rubentxu/pipeline-runtime) — Runtime que emula ejecución de Jenkins Pipelines (Groovy).
-
-> Consejo: visita también mis repos recientes y anclados en el perfil para ver código y notas técnicas.
 
 ## Estadísticas (públicas)
 <p>
@@ -50,9 +51,10 @@ Me gusta construir backends rápidos, fiables y mantenibles. Disfruto del diseñ
 - Si quieres discutir arquitectura/decisiones técnicas, feliz de comentar en issues.
 
 ## Contacto
+- Blog: https://blog.rubentxu.dev/
 - LinkedIn: https://es.linkedin.com/in/rubentxu
 - También puedes abrir un issue en este repositorio si quieres saludar o proponer algo.
 
 ---
 
-> Tip para reclutadores: si necesitas una versión breve de experiencia/stack, escríbeme por LinkedIn y te la envío.
+> Reclutadores: si necesitáis una versión breve con logros/stack, escribid por LinkedIn y os la envío.
