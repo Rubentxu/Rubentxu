@@ -136,7 +136,7 @@ auditable en lugar de una caja negra con un LLM dentro.
 
 El trabajo no son 4 repos: es un sistema con capas, y cada una tiene su propio ritmo.
 
-**Un pipeline real de PipelineK se lee casi como Jenkins, pero se ejecuta en tu máquina:**
+**Un pipeline real de PipelineK se lee casi como Jenkins, pero escrito en Kotlin — un lenguaje más tipado y seguro — y se ejecuta en tu máquina:**
 
 ```kotlin
 pipeline {
