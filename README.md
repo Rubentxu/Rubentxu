@@ -1,8 +1,8 @@
 <div align="center">
 
-# Rubén Darío Cabrera
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6E56CF,50:4C7EF3,100:38BDF8&height=200&section=header&text=Rub%C3%A9n%20Dar%C3%ADo%20Cabrera&fontSize=40&fontColor=ffffff&fontAlignY=34&desc=Cloud%20Solutions%20Architect%20%26%20DevOps%20Lead&descSize=17&descAlignY=55&animation=fadeIn" width="100%" alt="Rubén Darío Cabrera — Cloud Solutions Architect & DevOps Lead" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=6E56CF&center=true&vCenter=true&width=760&lines=Cloud+Solutions+Architect+%26+DevOps+Lead;Platform+Engineer+%E2%86%92+AI+Agent+Tooling;Construyo+herramientas+de+desarrollo+en+Rust;Rethinking+how+AI+agents+earn+trust&height=120" alt="Rubén Darío Cabrera — typing" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6E56CF&center=true&vCenter=true&width=760&lines=Cloud+Solutions+Architect+%26+DevOps+Lead;Platform+Engineer+%E2%86%92+AI+Agent+Tooling;Construyo+herramientas+de+desarrollo+en+Rust;Rethinking+how+AI+agents+earn+trust&height=110" alt="Rubén Darío Cabrera — typing" />
 
 [![Followers](https://img.shields.io/github/followers/Rubentxu?style=for-the-badge&logo=github&label=Followers&color=6E56CF)](https://github.com/Rubentxu?tab=followers)
 [![Stars](https://img.shields.io/github/stars/Rubentxu?style=for-the-badge&logo=github&label=Stars&color=orange)](https://github.com/Rubentxu?tab=repositories)
@@ -375,13 +375,40 @@ Automatizaciones DevOps, microservicios y diseño de arquitecturas. Los años qu
 
 <div align="center">
 
-<img height="170" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=Rubentxu&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" />
-<img height="170" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rubentxu&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" />
+<img height="165" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=Rubentxu&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" />
+<img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rubentxu&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" />
 
 <br>
 
-<img height="150" alt="Streak stats" src="https://github-readme-streak-stats.herokuapp.com?user=Rubentxu&theme=tokyonight&hide_border=true" />
-<img height="150" alt="Repos overview" src="https://github-readme-stats.vercel.app/api/pin/?username=Rubentxu&repo=software-development-decision-kernel&theme=tokyonight&hide_border=true" />
+<img height="150" alt="Streak stats" src="https://streak-stats.demolab.com?user=Rubentxu&theme=tokyonight&hide_border=true&locale=es" />
+
+<br>
+
+<img height="120" alt="Profile trophy" src="https://github-profile-trophy.vercel.app/?username=Rubentxu&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=6" />
+
+**🗂️ Los 4 bandera, en una tarjeta**
+
+<a href="https://github.com/Rubentxu/pipeline-kotlin">
+  <img height="150" alt="pipeline-kotlin" src="https://github-readme-stats.vercel.app/api/pin/?username=Rubentxu&repo=pipeline-kotlin&theme=tokyonight&hide_border=true" />
+</a>
+<a href="https://github.com/Rubentxu/CogniCode">
+  <img height="150" alt="CogniCode" src="https://github-readme-stats.vercel.app/api/pin/?username=Rubentxu&repo=CogniCode&theme=tokyonight&hide_border=true" />
+</a>
+<br>
+<a href="https://github.com/Rubentxu/Bastion">
+  <img height="150" alt="Bastion" src="https://github-readme-stats.vercel.app/api/pin/?username=Rubentxu&repo=Bastion&theme=tokyonight&hide_border=true" />
+</a>
+<a href="https://github.com/Rubentxu/software-development-decision-kernel">
+  <img height="150" alt="software-development-decision-kernel" src="https://github-readme-stats.vercel.app/api/pin/?username=Rubentxu&repo=software-development-decision-kernel&theme=tokyonight&hide_border=true" />
+</a>
+
+**🐍 La serpiente que se come mis contribuciones**
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rubentxu/Rubentxu/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rubentxu/Rubentxu/output/github-contribution-grid-snake.svg" />
+  <img alt="Snake animation over the contribution graph" src="https://raw.githubusercontent.com/Rubentxu/Rubentxu/output/github-contribution-grid-snake.svg" />
+</picture>
 
 <br>
 
@@ -450,5 +477,7 @@ Automatizaciones DevOps, microservicios y diseño de arquitecturas. Los años qu
 
 <sub>Este README cuenta la historia del stack, no solo la lista de repos. Si algo no encaja, probablemente
 el cambio correcto es en el código, no aquí.</sub>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38BDF8,50:4C7EF3,100:6E56CF&height=130&section=footer" width="100%" alt="" />
 
 </div>
