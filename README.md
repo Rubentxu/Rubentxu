@@ -34,8 +34,6 @@
 No tengo 40 proyectos sueltos: tengo **un stack**. Cada pieza responde a una pregunta distinta sobre cómo un
 agente de IA gana **autoridad** sobre el software que toca, y todas se componen en un mismo harness gobernado.
 
-<div align="center">
-
 ```text
                                                            ▼
                                                            │
@@ -59,8 +57,6 @@ agente de IA gana **autoridad** sobre el software que toca, y todas se componen 
        │  PipelineK — ejecución local y durable     │
        └────────────────────────────────────────────┘
 ```
-
-</div>
 
 Cada capa tiene **una única autoridad**. SDDK no sabe qué es un símbolo; CogniCode no decide si algo puede
 publicarse; Bastion no interpreta políticas. Separar las autoridades es lo que hace que el sistema sea
@@ -140,8 +136,6 @@ auditable en lugar de una caja negra con un LLM dentro.
 
 El trabajo no son 4 repos: es un sistema con capas, y cada una tiene su propio ritmo.
 
-<div align="center">
-
 **Un pipeline real de PipelineK se lee casi como Jenkins, pero se ejecuta en tu máquina:**
 
 ```kotlin
@@ -158,8 +152,6 @@ pipeline {
     }
 }
 ```
-
-</div>
 
 <table>
 <tr>
