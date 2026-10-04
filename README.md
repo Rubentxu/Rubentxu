@@ -333,15 +333,19 @@ Automatizaciones DevOps, microservicios y diseño de arquitecturas. Los años qu
 
 **Lenguajes & runtimes**
 
-<img src="https://skillicons.dev/icons?i=rust,kotlin,go,python,typescript,javascript,java,groovy,bash,lua,c,cpp,zig" alt="Lenguajes" />
+![Rust](https://img.shields.io/badge/Rust-0D1117?style=for-the-badge&logo=rust&logoColor=F74C00) ![Kotlin](https://img.shields.io/badge/Kotlin-0D1117?style=for-the-badge&logo=kotlin&logoColor=7F52FF) ![Go](https://img.shields.io/badge/Go-0D1117?style=for-the-badge&logo=go&logoColor=00ADD8) ![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=4584B6) ![TypeScript](https://img.shields.io/badge/TypeScript-0D1117?style=for-the-badge&logo=typescript&logoColor=3178C6) ![JavaScript](https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E) ![Java](https://img.shields.io/badge/Java-0D1117?style=for-the-badge&logo=openjdk&logoColor=E76F00) ![Groovy](https://img.shields.io/badge/Groovy-0D1117?style=for-the-badge&logo=apachegroovy&logoColor=4298B8) ![Bash](https://img.shields.io/badge/Bash-0D1117?style=for-the-badge&logo=gnubash&logoColor=4EAA25) ![Lua](https://img.shields.io/badge/Lua-0D1117?style=for-the-badge&logo=lua&logoColor=6C8EBF) ![C](https://img.shields.io/badge/C-0D1117?style=for-the-badge&logo=c&logoColor=A8B9CC) ![C++](https://img.shields.io/badge/C%2B%2B-0D1117?style=for-the-badge&logo=cplusplus&logoColor=659AD2) ![Zig](https://img.shields.io/badge/Zig-0D1117?style=for-the-badge&logo=zig&logoColor=F7A41D)
 
-**AI, agentes & infraestructura**
+**IA, agentes & tooling**
 
-<img src="https://skillicons.dev/icons?i=ai,mcp,ollama,langchain,openai,anthropic,linux,docker,kubernetes,githubactions,terraform,nginx" alt="AI e infraestructura" />
+![MCP](https://img.shields.io/badge/MCP-0D1117?style=for-the-badge&logo=modelcontextprotocol&logoColor=FFFFFF) ![Ollama](https://img.shields.io/badge/Ollama-0D1117?style=for-the-badge&logo=ollama&logoColor=FFFFFF) ![LangChain](https://img.shields.io/badge/LangChain-0D1117?style=for-the-badge&logo=langchain&logoColor=2DD4BF) ![Anthropic](https://img.shields.io/badge/Anthropic-0D1117?style=for-the-badge&logo=anthropic&logoColor=D97757) ![OpenAI](https://img.shields.io/badge/OpenAI-0D1117?style=for-the-badge)
+
+**Ejecución & infraestructura**
+
+![Linux](https://img.shields.io/badge/Linux-0D1117?style=for-the-badge&logo=linux&logoColor=FCC624) ![Docker](https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=2496ED) ![Podman](https://img.shields.io/badge/Podman-0D1117?style=for-the-badge&logo=podman&logoColor=892CA0) ![Kubernetes](https://img.shields.io/badge/Kubernetes-0D1117?style=for-the-badge&logo=kubernetes&logoColor=326CE5) ![Helm](https://img.shields.io/badge/Helm-0D1117?style=for-the-badge&logo=helm&logoColor=4FADE0) ![Terraform](https://img.shields.io/badge/Terraform-0D1117?style=for-the-badge&logo=terraform&logoColor=7B42BC) ![Nginx](https://img.shields.io/badge/Nginx-0D1117?style=for-the-badge&logo=nginx&logoColor=009639) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-0D1117?style=for-the-badge&logo=githubactions&logoColor=2088FF)
 
 **Cloud, datos & observabilidad**
 
-<img src="https://skillicons.dev/icons?i=aws,azure,gcp,k9s,helm,prometheus,grafana,postgresql,sqlite,redis,git,github" alt="Cloud y datos" />
+![AWS](https://img.shields.io/badge/AWS-0D1117?style=for-the-badge) ![Azure](https://img.shields.io/badge/Azure-0D1117?style=for-the-badge) ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-0D1117?style=for-the-badge&logo=googlecloud&logoColor=4285F4) ![Prometheus](https://img.shields.io/badge/Prometheus-0D1117?style=for-the-badge&logo=prometheus&logoColor=E6522C) ![Grafana](https://img.shields.io/badge/Grafana-0D1117?style=for-the-badge&logo=grafana&logoColor=F46800) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=4169E1) ![SQLite](https://img.shields.io/badge/SQLite-0D1117?style=for-the-badge&logo=sqlite&logoColor=3BAFDD) ![Redis](https://img.shields.io/badge/Redis-0D1117?style=for-the-badge&logo=redis&logoColor=DC382D) ![Git](https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=F05032) ![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=FFFFFF)
 
 </div>
 
