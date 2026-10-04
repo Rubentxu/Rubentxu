@@ -384,8 +384,6 @@ Automatizaciones DevOps, microservicios y diseño de arquitecturas. Los años qu
 
 <br>
 
-<img height="120" alt="Profile trophy" src="https://github-profile-trophy.vercel.app/?username=Rubentxu&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=6" />
-
 **🗂️ Los 4 bandera, en una tarjeta**
 
 <a href="https://github.com/Rubentxu/pipeline-kotlin">
