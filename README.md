@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6E56CF,50:4C7EF3,100:38BDF8&height=200&section=header&text=Rub%C3%A9n%20Dar%C3%ADo%20Cabrera&fontSize=40&fontColor=ffffff&fontAlignY=34&desc=Cloud%20Solutions%20Architect%20%26%20DevOps%20Lead&descSize=17&descAlignY=55&animation=fadeIn" width="100%" alt="Rubén Darío Cabrera — Cloud Solutions Architect & DevOps Lead" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6E56CF,50:4C7EF3,100:38BDF8&height=200&section=header&text=Rub%C3%A9n%20Dar%C3%ADo%20Cabrera&fontSize=40&fontColor=ffffff&fontAlignY=34&desc=Cloud%20Solutions%20Architect%20%C2%B7%20DevOps%20Lead&descSize=17&descAlignY=55&animation=fadeIn" width="100%" alt="Rubén Darío Cabrera — Cloud Solutions Architect & DevOps Lead" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6E56CF&center=true&vCenter=true&width=760&lines=Cloud+Solutions+Architect+%26+DevOps+Lead;Platform+Engineer+%E2%86%92+AI+Agent+Tooling;Construyo+herramientas+de+desarrollo+en+Rust;Rethinking+how+AI+agents+earn+trust&height=110" alt="Rubén Darío Cabrera — typing" />
 
