@@ -1,176 +1,454 @@
 <div align="center">
 
 # Rubén Darío Cabrera
-### Building AI-powered developer tools in Rust 🦀
 
-[![GitHub followers](https://img.shields.io/github/followers/Rubentxu?style=flat&logo=github)](https://github.com/Rubentxu?tab=followers)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ruben%20Dario-0a66c2?logo=linkedin)](https://www.linkedin.com/in/rubentxu)
-[![Email](https://img.shields.io/badge/Email-rubentxu74@gmail.com-D14836?logo=gmail&logoColor=white)](mailto:rubentxu74@gmail.com)
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=6E56CF&center=true&vCenter=true&width=760&lines=Cloud+Solutions+Architect+%26+DevOps+Lead;Platform+Engineer+%E2%86%92+AI+Agent+Tooling;Construyo+herramientas+de+desarrollo+en+Rust;Rethinking+how+AI+agents+earn+trust&height=120" alt="Rubén Darío Cabrera — typing" />
 
-*Cloud Solutions Architect & DevOps Lead • Platform Engineer • Rust enthusiast*
-*📍 Vitoria-Gasteiz, País Vasco, España*
+[![Followers](https://img.shields.io/github/followers/Rubentxu?style=for-the-badge&logo=github&label=Followers&color=6E56CF)](https://github.com/Rubentxu?tab=followers)
+[![Stars](https://img.shields.io/github/stars/Rubentxu?style=for-the-badge&logo=github&label=Stars&color=orange)](https://github.com/Rubentxu?tab=repositories)
+[![Repos](https://img.shields.io/github/repos/Rubentxu?style=for-the-badge&logo=github&label=Repos&color=blue)](https://github.com/Rubentxu?tab=repositories)
+[![Forks](https://img.shields.io/github/forks/Rubentxu?style=for-the-badge&logo=github&label=Forks&color=8B949E)](https://github.com/Rubentxu?tab=repositories)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rubentxu)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rubentxu74@gmail.com)
+
+**📍 Vitoria-Gasteiz, País Vasco, España** · 15+ años construyendo software · 92 repos públicos
+
+[⬇️ Saltar al contenido](#índice)
 
 </div>
 
 ---
 
-## 🔥 Ahora mismo estoy construyendo...
+## 📑 Índice
 
-Un **AI Harness** — un ecosistema de herramientas Rust que potencian a agentes de IA con capacidades profesionales de desarrollo de software:
-
-| Proyecto | Descripción | Estado |
-|----------|-------------|--------|
-| 🏰 [**Bastion**](https://github.com/Rubentxu/Bastion) | MCP Gateway para ejecución de tools en sandboxes remotos (Podman, Firecracker, gVisor, K8s) | 🟡 Diseño |
-| 🔍 [**CogniCode**](https://github.com/Rubentxu/CogniCode) | MCP server de code intelligence — 17 tools: análisis, búsqueda, refactoring, call graphs (6 lenguajes) | 🟢 Activo |
-| ⏳ [**Chronos**](https://github.com/Rubentxu/chronos) | Time-travel debugging MCP server — transforma ejecución en base de datos temporal consultable | 🟢 Activo |
-| 🤖 [**Rcode**](https://github.com/Rubentxu/Rcode) | AI coding agent en Rust — streaming LLM, tool execution, TUI, Web UI, MCP + LSP | 🟢 Activo |
-| 🧠 [**Mentat**](https://github.com/Rubentxu/mentat) | CI/CD agentic platform en Rust — pipelines ejecutados por agentes AI con LLMs privacy-first | 🟡 Alpha |
-| 🎨 [**Artifex**](https://github.com/Rubentxu/artifex) | AI creative suite para game devs — sprites, audio, música, voz con SvelteKit + Tauri v2 + Rust | 🟡 Alpha |
-| 📝 [**pkm-ai**](https://github.com/Rubentxu/pkm-ai) | Personal Knowledge Management potenciado con IA en Rust | 🟡 Alpha |
-
-**Hilo conductor**: todos estos proyectos comparten la misma filosofía — **Rust + AI + MCP (Model Context Protocol)** para construir herramientas de desarrollo más inteligentes, seguras y rápidas.
+| | | |
+|---|---|---|
+| [🧭 Lo que construyo](#-lo-que-construyo) | [🧬 Ecosistema y derivados](#-ecosistema-y-derivados) | [💼 Experiencia](#-experiencia) |
+| [🚀 Proyectos bandera](#-proyectos-bandera) | [🧪 Más herramientas](#-m%C3%A1s-herramientas) | [🛠️ Stack](#%EF%B8%8F-stack) |
+| | [📊 En números](#-en-n%C3%BAmeros) | [📫 Contacto](#-contacto) |
 
 ---
 
-## 🏗️ Hodei Platform (Proyecto de largo plazo)
+## 🧭 Lo que construyo
 
-Alternativa open-source a Azure DevOps, construida pieza a pieza con arquitectura modular:
+No tengo 40 proyectos sueltos: tengo **un stack**. Cada pieza responde a una pregunta distinta sobre cómo un
+agente de IA gana **autoridad** sobre el software que toca, y todas se componen en un mismo harness gobernado.
 
-### Componentes activos
-| Proyecto | Tech | Descripción |
-|----------|------|-------------|
-| [hodei-jobs](https://github.com/Rubentxu/hodei-jobs) | **Rust** | Distributed job execution con Docker, Kubernetes y Firecracker providers ⭐2 |
-| [hodei-artifacts](https://github.com/Rubentxu/hodei-artifacts) | **Rust** | Artifacts registry con IAM, Cedar policies, analytics |
-| [hodei-audit-trail](https://github.com/Rubentxu/hodei-audit-trail) | **Rust** | Centralized Audit Point con HRN system y query engine |
-| [hodei-authz](https://github.com/Rubentxu/hodei-authz) | **Rust** | Motor de autorización multi-tenant con Cedar Policy |
-| [hodei-pipelines](https://github.com/Rubentxu/hodei-pipelines) | **Rust** | Distributed job processing con resource pool integration |
-| [hodei-draw](https://github.com/Rubentxu/hodei-draw) | **Rust/WASM** | Canvas interactivo tipo Excalidraw con física y animación |
-| [pipeliner](https://github.com/Rubentxu/pipeliner) | **Rust** | Pipeline orchestration library con Hexagonal Architecture |
-| [hodei-dsl](https://github.com/Rubentxu/hodei-dsl) | **Kotlin** | DSL declarativo para pipelines cloud-native |
-| [hodei_pipelines](https://github.com/Rubentxu/hodei_pipelines) | **Kotlin** | Plataforma de ejecución de pipelines CI/CD |
+<div align="center">
 
-### Roadmap Hodei
-- **Source Control** + **Build & Release** (CI/CD agentic con Mentat)
-- **Artifacts & Packages** (registry multi-formato)
-- **Security & Compliance** (Cedar authorization, audit trail)
-- **AI-Powered Dev Tools** (CogniCode, Chronos, Bastion integrados)
-- **Boards & Planning** (gestión ágil)
+```text
+                                                           ▼
+                                                           │
+┌────────────────┐  ┌────────────────┐  ┌────────────────┐  ┌────────────────┐
+│  SDDK          │  │  CogniCode     │  │  Bastion       │  │  Chronos       │
+├────────────────┤  ├────────────────┤  ├────────────────┤  ├────────────────┤
+│                │  │                │  │                │  │                │
+│¿QUÉ PUEDO      │  │¿QUÉ ES EL      │  │¿DÓNDE SE       │  │¿QUÉ PASÓ       │
+│HACER, Y CON    │  │CÓDIGO?         │  │EJECUTA?        │  │DE VERDAD?      │
+│QUÉ EVIDENCIA   │  │                │  │                │  │                │
+│LO RESPALDA?    │  │73 MCP tools    │  │Podman          │  │evidence        │
+│                │  │30 lenguajes    │  │Firecracker     │  │ejecutable      │
+│gates · ledger  │  │call graphs     │  │gVisor · K8s    │  │519+ tests      │
+│6 lentes de     │  │safe refactor   │  │aislamiento     │  │no silent lies  │
+│verificación    │  │                │  │                │  │                │
+└────────────────┘  └────────────────┘  └────────────────┘  └────────────────┘
+         │                   │                   │                   │
+         ┌                   ┴                   ┴                   ┐
+                                                           ▼
+       ┌────────────────────────────────────────────┐
+       │  PipelineK — ejecución local y durable     │
+       └────────────────────────────────────────────┘
+```
+
+</div>
+
+Cada capa tiene **una única autoridad**. SDDK no sabe qué es un símbolo; CogniCode no decide si algo puede
+publicarse; Bastion no interpreta políticas. Separar las autoridades es lo que hace que el sistema sea
+auditable en lugar de una caja negra con un LLM dentro.
 
 ---
 
-## 🧪 Proyectos de investigación y otros
+## 🚀 Proyectos bandera
 
-| Proyecto | Descripción |
-|----------|-------------|
-| [code-context-graph](https://github.com/Rubentxu/code-context-graph) | Semantic code analysis — grafos de codebases para AI-assisted dev |
-| [archflow](https://github.com/Rubentxu/archflow) | Motor de gráficos 2D en Rust con Zero Trust, Bézier curves, diagramas, WASM |
-| [Entitas-Java](https://github.com/Rubentxu/Entitas-Java) | Entity Component System en Java 8 — **54 ⭐**, 13 forks |
-| [DreamsLibGdx](https://github.com/Rubentxu/DreamsLibGdx) | Juego de plataformas con LibGDX — **9 ⭐** |
-| [pipeline-kotlin](https://github.com/Rubentxu/pipeline-kotlin) | DSL pipeline runner en Kotlin (precursor de hodei-dsl) — **⭐2** |
-| [pipeline-runtime](https://github.com/Rubentxu/pipeline-runtime) | Jenkins pipeline emulator en Groovy — **⭐2** |
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<b>🧠 SDDK — Software Development Decision Kernel</b><br><br>
+<b>Kernel de decisión y workflow para desarrollo asistido por IA.</b><br><br>
+<i>No es otro framework de agentes: es la capa que decide qué se puede hacer y con qué evidencia se cierra.</i><br><br>
+• 🔀 Pipeline gobernado de <b>exploración → release</b><br>
+• 🚦 <b>Quality gates</b> + auditoría de deuda técnica<br>
+• 🕸️ Grafo de conocimiento que rastrea <b>cada decisión, requisito e incidencia</b> entre ciclos<br>
+• 🔍 <b>6 lentes de verificación</b> en paralelo + síntesis: spec, arquitectura, calidad de test, coherencia de diseño y 2 jueces adversariales<br>
+• 🔐 Efectos Git gobernados · <b>MIT</b> · compatible con OKF v0.2 y Obsidian Properties<br>
+• 🇪🇸🇬🇧 README bilingüe<br><br>
+<a href="https://github.com/Rubentxu/software-development-decision-kernel"><b>Rubentxu/software-development-decision-kernel</b></a>
+
+</td>
+<td width="50%" valign="top">
+
+<b>🔍 CogniCode — Code Intelligence para agentes</b><br><br>
+<b>Un Super-LSP en Rust que expone IntelliJ como herramientas MCP.</b><br><br>
+<i>Piensa IntelliJ IDEA, pero invocado por un agente vía Model Context Protocol.</i><br><br>
+• 🧰 <b>73 herramientas MCP</b><br>
+• 🌍 <b>30 lenguajes</b> vía Tree-sitter (18 soportados + 12 experimentales)<br>
+• 🕸️ Call graphs, análisis de impacto, búsqueda semántica<br>
+• 🧬 Refactor seguro: rename, extract, inline, move, change signature <b>con preview de impacto</b><br>
+• 💾 Caché de grafo persistente (embedded <code>redb</code>) que sobrevive entre sesiones<br>
+• 🏛️ Detección de ciclos con <b>SCC de Tarjan</b>, hot paths y código muerto<br>
+• 📈 Export a Mermaid · compresión de contexto · OpenTelemetry<br>
+• 🧱 DDD + Clean Architecture<br><br>
+<a href="https://github.com/Rubentxu/CogniCode"><b>Rubentxu/CogniCode</b></a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<b>🏰 Bastion — MCP Gateway para ejecución aislada</b><br><br>
+<b>Ejecuta las tools de un agente en una sandbox, no en tu máquina.</b><br><br>
+<i>El problema: los MCP servers existentes ejecutan comandos en el mismo proceso. Sin aislamiento, sin límites, sin limpieza.</i><br><br>
+• 🧱 <b>Aislamiento real</b> por ejecución: contenedor o microVM<br>
+• 📦 Backends intercambiables: <b>Podman · Firecracker · gVisor · Kubernetes</b><br>
+• ⏱️ Límites de CPU, memoria y tiempo por sandbox<br>
+• 🧹 Estado limpio: nada se filtra entre ejecuciones<br>
+• 🤝 MCP nativo — funciona con OpenCode, Claude Code, Goose<br>
+• 🦀 Rust · DDD + Clean Architecture · Apache-2.0<br><br>
+<a href="https://github.com/Rubentxu/Bastion"><b>Rubentxu/Bastion</b></a>
+
+</td>
+<td width="50%" valign="top">
+
+<b>⚙️ PipelineK — CI/CD local-first con DSL de Kotlin</b><br><br>
+<b>Binario único. Pipelines duraderos. Sin controlador, sin estado remoto, sin phone-home.</b><br><br>
+• 📄 DSL Kotlin tipado (<code>.pipeline.kts</code>), familiar al de Jenkins<br>
+• ♻️ Ejecución <b>durable y reanudable</b> tras un crash<br>
+• 🔎 Cada paso emite un <b>evento tipado</b>; cada shell queda registrado con huella <b>SHA-256</b> de sus entradas<br>
+• 🏠 100% local — los datos no salen de tu máquina<br>
+• 🔐 Releases firmados con SHA-256 verificable · <code>pipelinek doctor</code> para preflight<br>
+• 🐧 Linux · macOS · Windows (WSL) · Java 21+ · <b>MIT</b><br><br>
+<a href="https://github.com/Rubentxu/pipeline-kotlin"><b>Rubentxu/pipeline-kotlin</b></a>
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 🛠️ Stack tecnológico
+## 🧬 Ecosistema y derivados
 
-### Lenguajes
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+El trabajo no son 4 repos: es un sistema con capas, y cada una tiene su propio ritmo.
 
-### AI & Agentes
-![MCP](https://img.shields.io/badge/MCP-Model_Context_Protocol-blue)
-![LLM](https://img.shields.io/badge/LLM-Streaming_Infra-green)
-![Tauri](https://img.shields.io/badge/Tauri-FFC131?style=flat&logo=tauri&logoColor=black)
-![WASM](https://img.shields.io/badge/WASM-654FF0?style=flat&logo=webassembly&logoColor=white)
+<div align="center">
 
-### Cloud & Infra
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoft-azure&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat&logo=google-cloud&logoColor=white)
+**Un pipeline real de PipelineK se lee casi como Jenkins, pero se ejecuta en tu máquina:**
 
-### CI/CD & GitOps
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat&logo=jenkins&logoColor=white)
-![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat&logo=argo&logoColor=white)
-![Spinnaker](https://img.shields.io/badge/Spinnaker-139BB4?style=flat&logo=spinnaker&logoColor=white)
+```kotlin
+pipeline {
+    stages {
+        stage("build") {
+            sh("./gradlew build")
+        }
+        stage("verify") {
+            retry(count = 3) {
+                sh("./gradlew test")
+            }
+        }
+    }
+}
+```
+
+</div>
+
+<table>
+<tr>
+<th align="left">Capa</th>
+<th align="left">Proyecto</th>
+<th align="left">Qué resuelve</th>
+</tr>
+<tr>
+<td valign="top"><b>Configuración</b></td>
+<td><a href="https://github.com/Rubentxu/pipelattice"><b>Pipelattice</b></a><br><sub>Kotlin 2.4 · MIT</sub></td>
+<td valign="top">Control-plane <b>GitOps</b> que compila configuración tipada y versionada en un <code>ResolvedPipelinePlan</code> <b>inmutable y explicable</b>. No ejecuta: produce el plan; el runtime lo consume.</td>
+</tr>
+<tr>
+<td valign="top"><b>Decisión</b></td>
+<td><a href="https://github.com/Rubentxu/software-development-decision-kernel"><b>SDDK</b></a> · <a href="https://github.com/Rubentxu/vistalith"><b>Vistalith</b></a><br><sub>Kernel · workspace visual</sub></td>
+<td valign="top">SDDK gobierna el ciclo. Vistalith lo aplica a un <b>Semantic World Graph</b>: ingeniería visual agéntica construida <i>sobre</i> SDDK, no al lado.</td>
+</tr>
+<tr>
+<td valign="top"><b>Estructura</b></td>
+<td><a href="https://github.com/Rubentxu/arch-skillkit"><b>arch-skillkit</b></a><br><sub>Python</sub></td>
+<td valign="top">Descubrimiento de arquitectura <b>agent-first</b> y limpio: evidencia determinista (ast-grep, Semgrep, metadatos de build) → agentes LLM → LikeC4 + Arrows. <b>Nunca escribe en el repo analizado.</b></td>
+</tr>
+<tr>
+<td valign="top"><b>Contexto</b></td>
+<td><a href="https://github.com/Rubentxu/skillgraph"><b>SkillGraph</b></a><br><sub>Python · H0..H7</sub></td>
+<td valign="top">Orquestador de skills <b>local-first</b> basado en grafo. Blueprint v1: <b>16/16 UAT PASS</b> en 5 releases.</td>
+</tr>
+<tr>
+<td valign="top"><b>Identidad</b></td>
+<td><a href="https://github.com/Rubentxu/agent-secretless"><b>agent-secretless</b></a> · <a href="https://github.com/Rubentxu/agent-control-plane"><b>agent-control-plane</b></a><br><sub>Rust · TypeScript</sub></td>
+<td valign="top">Un agente usa una identidad <b>sin recibir nunca el material de la credencial</b>. Control-plane declarativo <i>graph-first</i> con runtime Eve, grafo de recursos tipado, reconciliación y credential broker.</td>
+</tr>
+<tr>
+<td valign="top"><b>Distribución</b></td>
+<td><a href="https://github.com/Rubentxu/asdf-pipelinek"><b>asdf-pipelinek</b></a> · <a href="https://github.com/Rubentxu/homebrew-sddk"><b>homebrew-sddk</b></a></td>
+<td valign="top">Canales de instalación verificados: plugin <b>asdf</b> y tap <b>Homebrew</b>. Instalables de una línea, con digest de release.</td>
+</tr>
+</table>
+
+---
+
+## 🧪 Más herramientas
+
+<details>
+<summary><b>Runtimes de agente, CI/CD agéntico y grafos</b> — <i>Rcode, Mentat, Quilt, a2a-protocol-rust, code-context-graph…</i></summary>
+
+<br>
+
+| Proyecto | Lenguaje | Qué es |
+|---|---|---|
+| [**Rcode**](https://github.com/Rubentxu/Rcode) ⭐5 | Rust | Coding agent de alto rendimiento: LLM en streaming, ejecución de tools, TUI, Web UI, MCP y LSP |
+| [**Mentat**](https://github.com/Rubentxu/mentat) | Rust | CI/CD event-driven donde los agentes son ciudadanos de primera clase: actores Ractor, bus CloudEvents, LLM Router con caché semántico, motor de políticas **Cedar** |
+| [**Quilt**](https://github.com/Rubentxu/quilt) ⭐7 | Rust | Knowledge graph **AI-first**: reimplementación en Rust del modelo de grafo de Logseq, arquitectura MCP-first, FTS5, local-first |
+| [**a2a-protocol-rust**](https://github.com/Rubentxu/a2a-protocol-rust) | Rust | SDK del protocolo **A2A** (Agent-to-Agent) para comunicación fiable entre agentes |
+| [**code-context-graph**](https://github.com/Rubentxu/code-context-graph) | Rust | Análisis semántico de código: representaciones en grafo para workflows de desarrollo asistidos por IA |
+| [**agents-workflows**](https://github.com/Rubentxu/agents-workflows) | TypeScript | Sistema de workflows agénticos: binario único con Studio UI, servidor MCP, API REST y dashboard React |
+
+</details>
+
+<details>
+<summary><b>Hodei — plataforma open source por piezas</b> — <i>la alternativa a Azure DevOps construida módulo a módulo</i></summary>
+
+<br>
+
+| Proyecto | Lenguaje | Qué es |
+|---|---|---|
+| [**hodei-jobs**](https://github.com/Rubentxu/hodei-jobs) ⭐2 | Rust | Ejecución de jobs distribuida con providers **Docker, Kubernetes y Firecracker** |
+| [**hodei-artifacts**](https://github.com/Rubentxu/hodei-artifacts) | Rust | Registry de artefactos con IAM, políticas **Cedar** y analítica |
+| [**hodei-authz**](https://github.com/Rubentxu/hodei-authz) | Rust | Motor de autorización multi-tenant basado en Cedar Policy |
+| [**hodei-verified-permissions**](https://github.com/Rubentxu/hodei-verified-permissions) | Rust | Servicio de autorización Cedar multi-DB con caché en memoria — production-ready |
+| [**hodei-audit-trail**](https://github.com/Rubentxu/hodei-audit-trail) | Rust | Centralized Audit Point con sistema HRN, enriquecimiento de eventos y query engine |
+| [**hodei-scan**](https://github.com/Rubentxu/hodei-scan) | Rust | Motor de correlación de seguridad multi-dominio con DSL propio |
+| [**hodei-dsl**](https://github.com/Rubentxu/hodei-dsl) | Kotlin | DSL declarativo de pipelines cloud-native, precursor del enfoque de PipelineK |
+| [**hodei-pipelines**](https://github.com/Rubentxu/hodei-pipelines) | Rust | Procesamiento distribuido de jobs con integración de resource pools |
+| [**pipeliner**](https://github.com/Rubentxu/pipeliner) ⭐1 | Rust | Biblioteca de orquestación de pipelines con **Arquitectura Hexagonal** |
+| [**hodei-draw**](https://github.com/Rubentxu/hodei-draw) | Rust/WASM | Canvas interactivo estilo Excalidraw con física, animación y WebAssembly |
+
+</details>
+
+<details>
+<summary><b>Rust, WASM, gráficos y motores</b> — <i>la capa de render y los motores</i></summary>
+
+<br>
+
+| Proyecto | Lenguaje | Qué es |
+|---|---|---|
+| [**archflow**](https://github.com/Rubentxu/archflow) | Rust | Motor de gráficos 2D con **Zero Trust**, curvas Bézier, sistema de estilos, puertos y conexiones, y export a WASM |
+| [**arch-stack**](https://github.com/Rubentxu/arch-stack) ⭐1 | Rust + TS | `archctl` CLI sidecar para diagramas C4/UML + workbench SolidJS con G6 |
+| [**bevy-2d-editor**](https://github.com/Rubentxu/bevy-2d-editor) | Rust | Editor de escenas 2D en navegador para juegos Bevy |
+| [**bevy-libro-examples**](https://github.com/Rubentxu/bevy-libro-examples) | Rust | Patrones 2D y ECS con Bevy 0.19 — **38 crates, 197 tests** |
+| [**grafos-bbdd-desde-cero**](https://github.com/Rubentxu/grafos-bbdd-desde-cero) | Rust | Obra técnica en 3 volúmenes: grafos, construcción de **LiraDB** (BBDD de grafos desde cero) y grafos en la era de la IA |
+
+</details>
+
+<details>
+<summary><b>El inicio: donde empezó todo</b> — <i>ECS, motores de juego y automatización</i></summary>
+
+<br>
+
+| Proyecto | Lenguaje | Qué es |
+|---|---|---|
+| [**Entitas-Java**](https://github.com/Rubentxu/Entitas-Java) ⭐56 | Java 8 | **Entity Component System** en Java — mi proyecto más estrelas, y donde empezó la obsesión por los ECS |
+| [**DreamsLibGdx**](https://github.com/Rubentxu/DreamsLibGdx) ⭐9 | Java | Juego de plataformas con **LibGDX** |
+| [**pipeline-runtime**](https://github.com/Rubentxu/pipeline-runtime) ⭐2 | Groovy | Emulador de pipelines Jenkins — <b>el ancestro directo de PipelineK</b> |
+| [**pipeline-kotlin**](https://github.com/Rubentxu/pipeline-kotlin) ⭐2 | Kotlin | Primer runner del DSL de pipelines en Kotlin — hoy <b>PipelineK</b> |
+| [**lbricks**](https://github.com/Rubentxu/lbricks) | Go | Lógica de <i>logic bricks</i> reutilizable, puente entre los dos mundos |
+| [**Artifex**](https://github.com/Rubentxu/artifex) | Rust + SvelteKit | Suite creativa IA para game devs: sprites, audio, música y voz con Tauri v2 |
+| [**pkm-ai**](https://github.com/Rubentxu/pkm-ai) | Rust | Gestión de conocimiento personal potenciada con IA |
+
+</details>
 
 ---
 
 ## 💼 Experiencia
 
-| Empresa | Rol | Focus |
-|---------|-----|-------|
-| **Viewnext** (2024–presente) | Cloud Solutions Architect & DevOps Lead | Giss/Seguridad Social, modernización DevOps |
-| **RealNaut** (2021–2024) | Platform Engineer | CI/CD redesign, cloud híbrido, mentoring |
-| **Accenture** (2019–2020) | DevOps Engineer | Vodafone, K8s, observabilidad |
-| **Ibermática** (2016–2019) | Software Architect | Automatizaciones DevOps, microservicios |
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**Clientes**: Seguridad Social, Vodafone, Sanitas, RTVE, Gobierno Vasco, Servihabitat
+<b>Paradigma Digital</b> — <i>2025 → presente</i><br>
+<b>Cloud Solutions Architect &amp; DevOps Lead</b><br><br>
+Arquitectura cloud y liderazgo de DevOps: automatización de plataformas, prácticas de seguridad y guardarraíles para equipos que entregan en producción. El punto donde el trabajo de plataforma se convierte en producto.
 
----
+</td>
+<td width="50%" valign="top">
 
-## 📜 Certificaciones
+<b>Viewnext</b> — <i>2024 → 2025</i><br>
+<b>Cloud Solutions Architect &amp; DevOps Lead</b><br><br>
+Modernización DevOps para <b>GISS / Seguridad Social</b>: virtualización de procesos, entornos y cadena de entrega en la Administración pública.
 
-- **AWS Certified Cloud Practitioner**
-- **Kubernetes for Developers** (LFD259)
-- **Red Hat OpenShift Fundamentals** (DO081x)
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<b>RealNaut</b> — <i>2021 → 2024</i><br>
+<b>Platform Engineer</b><br><br>
+Rediseño de CI/CD, cloud híbrido y mentoring de equipos de ingeniería. El salto de <i>usar</i> herramientas a <i>construir la plataforma</i> que las sostiene.
+
+</td>
+<td width="50%" valign="top">
+
+<b>Accenture</b> — <i>2019 → 2020</i><br>
+<b>DevOps Engineer</b><br><br>
+Proyecto <b>Vodafone</b>: Kubernetes, observabilidad y automatización a escala de carrier.
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+<b>Ibermática</b> — <i>2016 → 2019</i><br>
+<b>Software Architect</b><br><br>
+Automatizaciones DevOps, microservicios y diseño de arquitecturas. Los años que enseñaron a pensar en sistemas antes que en servicios.
+
+</td>
+</tr>
+</table>
+
+**Clientes y programas:** Seguridad Social · Vodafone · Sanitas · RTVE · Gobierno Vasco · Servihabitat
+
+<details>
+<summary><b>📜 Certificaciones</b></summary>
+
+<br>
+
+- **AWS Certified** — Cloud Practitioner
+- **Kubernetes for Developers** — LFD259 (CNCF)
+- **Red Hat OpenShift Fundamentals** — DO081x
 - **ITIL Foundation**
 
+</details>
+
 ---
 
-## 📊 Estadísticas
+## 🛠️ Stack
 
-<p>
-  <img height="165" alt="stats" src="https://github-readme-stats.vercel.app/api?username=Rubentxu&show_icons=true&theme=tokyonight" />
-  <img height="165" alt="top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rubentxu&layout=compact&theme=tokyonight" />
-</p>
+<div align="center">
+
+**Lenguajes & runtimes**
+
+<img src="https://skillicons.dev/icons?i=rust,kotlin,go,python,typescript,javascript,java,groovy,bash,lua,c,cpp,zig" alt="Lenguajes" />
+
+**AI, agentes & infraestructura**
+
+<img src="https://skillicons.dev/icons?i=ai,mcp,ollama,langchain,openai,anthropic,linux,docker,kubernetes,githubactions,terraform,nginx" alt="AI e infraestructura" />
+
+**Cloud, datos & observabilidad**
+
+<img src="https://skillicons.dev/icons?i=aws,azure,gcp,k9s,helm,prometheus,grafana,postgresql,sqlite,redis,git,github" alt="Cloud y datos" />
+
+</div>
+
+<details>
+<summary><b>Herramientas de plataforma que uso a diario</b></summary>
+
+<br>
+
+| Categoría | Herramientas |
+|---|---|
+| **CI/CD agéntico** | PipelineK · Mentat · Jenkins · ArgoCD · Spinnaker |
+| **Ejecución aislada** | Podman · Firecracker · gVisor · Kubernetes · Docker |
+| **Gobernanza** | Cedar Policy · OPA · GitOps · evidencia con receipts |
+| **Observabilidad** | OpenTelemetry · Prometheus · Grafana · k9s |
+| **Cloud** | AWS · Azure · GCP · Terraform · Helm |
+| **Paradigma** | DDD · Clean Architecture · Hexagonal · TDD |
+
+</details>
+
+---
+
+## 📊 En números
+
+<div align="center">
+
+<img height="170" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=Rubentxu&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" />
+<img height="170" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rubentxu&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" />
+
+<br>
+
+<img height="150" alt="Streak stats" src="https://github-readme-streak-stats.herokuapp.com?user=Rubentxu&theme=tokyonight&hide_border=true" />
+<img height="150" alt="Repos overview" src="https://github-readme-stats.vercel.app/api/pin/?username=Rubentxu&repo=software-development-decision-kernel&theme=tokyonight&hide_border=true" />
+
+<br>
+
+<a href="https://github.com/Rubentxu">
+  <img src="https://komarev.com/ghpvc/?username=Rubentxu&label=Profile%20views&color=6E56CF&style=flat" alt="Profile views" />
+</a>
+&nbsp;&nbsp;
+<a href="https://github.com/Rubentxu">
+  <img src="https://img.shields.io/badge/Building%20with-Rust%20%E2%9A%A1%EF%B8%8F-202020?style=flat&logo=rust&logoColor=white" alt="Rust" />
+</a>
+
+</div>
 
 ---
 
 ## 📫 Contacto
 
-- **LinkedIn**: https://www.linkedin.com/in/rubentxu
-- **Email**: rubentxu74@gmail.com
-- **GitHub**: https://github.com/Rubentxu
-- **GitLab**: https://gitlab.com/rubentxu74
+<div align="center">
 
----
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rub%C3%A9n%20Dario-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rubentxu)
+[![GitLab](https://img.shields.io/badge/GitLab-rubentxu74-FCA121?style=for-the-badge&logo=gitlab&logoColor=white)](https://gitlab.com/rubentxu74)
+[![Email](https://img.shields.io/badge/Email-rubentxu74@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rubentxu74@gmail.com)
 
-> *"Build tools that make developers superhuman — powered by Rust, driven by AI."*
+</div>
+
+> *"No enseñes al agente a recordar. Haz que el sistema materialice el estado correcto, limite lo que
+> puede hacer y entregue contexto verificable antes de cada decisión."*
 
 ---
 
 <details>
-<summary>🗺️ Mi viaje tecnológico</summary>
+<summary><b>🗺️ Mi viaje</b></summary>
 
-```
-2010  Java/Spring → AppEngine, juegos Android
-2013  PHP → Symfony, aplicaciones web
-2014  LibGDX → DreamsLibGdx, Entitas-Java (ECS)
-2016  Go → lbricks, devops_console
-2018  DevOps → Jenkins, Terraform, Kubernetes
-2020  Cloud → AWS, Azure, GCP, Platform Engineering
-2022  Kotlin → hodei-dsl, pipeline-kotlin
-2024  Rust → hodei-artifacts, hodei-jobs, archflow
-2025  AI + MCP → CogniCode, Chronos, Rcode, Mentat
-2026  AI Harness → Bastion, full MCP ecosystem
+<br>
+
+```text
+2010–2013  Java · Spring · AppEngine · juegos Android
+2014–2015  LibGDX · DreamsLibGdx · Entitas-Java (ECS) — 56 ⭐
+2016–2017  Go · lbricks · automatización DevOps · Go real-time
+2018–2020  DevOps de verdad — Jenkins · Terraform · Kubernetes · microservicios
+2021–2024  Platform Engineering — cloud híbrido · CI/CD redesign · mentoring
+2025       Cloud Solutions Architect & DevOps Lead
+2026       AI agent tooling — SDDK · CogniCode · Bastion · PipelineK
 ```
 
-**15+ años construyendo software. Ahora con IA, Rust y MCP.**
+**De escribir lógica a decidir qué lógica puede ejecutarse.**
 
 </details>
 
 <details>
-<summary>🏔️ Fuera del código</summary>
+<summary><b>🏔️ Fuera del código</b></summary>
 
-- 🏔️ Montaña y senderismo (Pirineos, Gorbeia, Aizkorri)
-- 📚 Lectura técnica: sistemas distribuidos, arquitectura, inteligencia artificial
-- ✍️ Blogging sobre Platform Engineering, Rust, MCP
+<br>
+
+- 🏔️ Montaña y senderismo — Pirineos, Gorbeia, Aizkorri
+- 📚 Lectura técnica: sistemas distribuidos, arquitectura, IA
+- ✍️ Escribiendo sobre Platform Engineering, Rust y MCP
 - 👨‍🏫 Mentoring y formación de equipos
-- 🎮 Game development (histórico — LibGDX, Defold, entitas)
+- 🎮 Game dev (histórico: LibGDX, Defold, Entitas)
 
 </details>
+
+---
+
+<div align="center">
+
+<sub>Este README cuenta la historia del stack, no solo la lista de repos. Si algo no encaja, probablemente
+el cambio correcto es en el código, no aquí.</sub>
+
+</div>
